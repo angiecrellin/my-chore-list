@@ -1,0 +1,20 @@
+body {
+  background: White;
+  color: Blue;
+}
+
+.App {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.item {
+  color: Red;
+}
+
+
+.CheckIcon {
+  float: right;
+  color: green;
+  cursor: pointer;
+}
