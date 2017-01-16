@@ -1,6 +1,9 @@
 body {
-  background: White;
-  color: Blue;
+  background-color: Blue;
+}
+
+h1 {
+  color: white;
 }
 
 .App {
@@ -10,6 +13,7 @@ body {
 
 .item {
   color: Red;
+  font-size: 1.9rem;
 }
 
 

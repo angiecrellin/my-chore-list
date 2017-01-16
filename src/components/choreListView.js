@@ -4,9 +4,9 @@ import FaCheck from 'react-icons/lib/fa/check'
 
 
 const ChoreListView = ({ chores, completeChore }) => (
-  <ListGroup>
+  <ListGroup bsSize="large">
     {chores.map((chore, index) => (
-      <ListGroupItem className="item" key={index}>
+      <ListGroupItem bsStyle="warning" className="item" key={index}>
         {chore.text} 
         <FaCheck onClick={() => completeChore(index)} className="CheckIcon" />
       </ListGroupItem>
