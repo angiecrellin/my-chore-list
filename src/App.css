@@ -1,9 +1,9 @@
 body {
-  background-color: Blue;
+  background-color: #1A5FFF;
 }
 
 h1 {
-  color: white;
+  color: #FFD300;
 }
 
 .App {
@@ -12,8 +12,8 @@ h1 {
 }
 
 .item {
-  color: Red;
-  font-size: 1.9rem;
+  color: #002C91;
+  font-size: 1.7rem;
 }
 
 

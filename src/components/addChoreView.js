@@ -15,9 +15,9 @@ const AddChoreView = ({ addChore }) => (
     
   >
     <FormGroup controlId="formInlineName" bsSize="large">
-      <FormControl name="input" type="text" bsSize="large" placeholder="Enter Chore and Expected Time to Complete" text-align="center" />
+      <FormControl name="input" type="text" bsSize="large" placeholder="Enter Chore and Expected Time to Complete" />
         </FormGroup>
-          <Button type="submit" bsSize="large" bsStyle="danger">
+          <Button type="submit" bsSize="large" bsStyle="warning">
           Add Chore to List
           </Button>
   </Form>
