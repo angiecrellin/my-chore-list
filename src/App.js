@@ -16,10 +16,10 @@ class App extends Component {
             </Col>
           </Row>
           <Row>
-            <Col md={6}>
+            <Col md={12} >
               <AddChore />
             </Col>
-            <Col md={6}>
+            <Col md={12}>
               <ChoreList />
             </Col>
           </Row>

@@ -13,6 +13,8 @@ const AddChoreView = ({ addChore }) => (
       event.target.input.value = ''
     }}
     
+      
+    
   >
     <FormGroup controlId="formInlineName" bsSize="large">
       <FormControl name="input" type="text" bsSize="large" placeholder="Enter Chore and Expected Time to Complete" />

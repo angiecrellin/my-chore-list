@@ -1,19 +1,39 @@
 body {
   background-color: #79BEDB;
+  
 }
 
 h1 {
   color: #593E1A;
 }
 
+
 .App {
   margin-top: 3rem;
   text-align: center;
 }
 
+.form-group-lg .form-control {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  margin-bottom: 20px;
+  
+}
+/*.list-group-item:last-child {*/
+/*  margin-top: 20px;*/
+/*}*/
+
+
 .item {
   color: #6B78B4;
   font-size: 1.7rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -27,3 +47,4 @@ footer {
   text-align: center;
   padding-top: 350px;
 }
+
