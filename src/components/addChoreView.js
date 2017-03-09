@@ -7,6 +7,7 @@ const AddChoreView = ({ addChore }) => (
       event.preventDefault()
       let userInput = event.target.input.value
       if(userInput === '') {
+        alert("Please Enter at Least One Chore");
         return false
       }
       addChore(userInput)
